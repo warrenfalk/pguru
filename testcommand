@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+while true; do
+    echo "Press [CTRL+C] to stop.."
+    ls -l --color .
+    sleep 3
+done
