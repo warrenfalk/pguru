@@ -1,3 +1,4 @@
 {
+  "name": "pguru",
   "packageManager": "yarn@4.1.0"
 }
