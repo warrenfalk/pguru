@@ -1,0 +1,9 @@
+# Yarn PnP
+.pnp.*
+.yarn/*
+**/.yarn/*
+!.yarn/releases
+.vscode/
+
+dist/
+.bash_history
