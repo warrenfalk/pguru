@@ -1,0 +1,12 @@
+{
+  /* This specifies the rules we will use before allowing a commit
+     For development we relax the rules to allow for a better developer experience,
+     But before a commit we will make sure the developer has remembered to clean up their code
+  */
+  "extends": "@sindresorhus/tsconfig",
+  "compilerOptions": {
+    "outDir": "dist",
+    "allowSyntheticDefaultImports": true,
+  },
+  "include": ["src/**/*"]
+}
